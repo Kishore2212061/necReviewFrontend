@@ -1,0 +1,89 @@
+.dashboard-container {
+  background: linear-gradient(135deg, #f4f4f4, #e5e7eb);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.container h2 {
+  font-size: 2.2em;
+  color: #1e3a8a;
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.role-switcher {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.role-switcher h3 {
+  font-size: 1.5em;
+  color: #374151;
+  margin-bottom: 20px;
+}
+
+.role-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.role-button {
+  background-color: #e5e7eb;
+  color: #374151;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.role-button:hover {
+  background-color: #d1d5db;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.role-button.active {
+  background-color: #3b82f6;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-content {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.dashboard-content h3 {
+  font-size: 1.8em;
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.active-role {
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

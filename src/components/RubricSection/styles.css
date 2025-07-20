@@ -1,0 +1,25 @@
+.rubric-section {
+  margin-bottom: 20px;
+}
+
+.student-score {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.student-score input {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.student-score button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.student-score button:hover {
+  background-color: #218838;
+}

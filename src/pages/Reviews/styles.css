@@ -1,0 +1,15 @@
+.reviews-container {
+  background: linear-gradient(135deg, #f4f4f4, #e5e7eb);
+  min-height: 100vh;
+}
+
+.reviews-content {
+  display: flex;
+}
+
+.reviews-main {
+  flex: 1;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
